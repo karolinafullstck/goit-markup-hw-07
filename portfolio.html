@@ -16,31 +16,35 @@
   </head>
   <body>
     <header class="header">
-      <div class="container flexheader">
-        <a class="logo" href="./index.html"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
+      <div class="header-container">
+        <a class="header_logo" href="./index.html"
+          ><span class="logo--blue">Web</span
+          ><span class="logo--black">Studio</span></a
         >
         <nav>
           <ul class="navigation">
-            <li><a class="link" href="./index.html">Agencja</a></li>
-            <li><a class="link active" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="link" href="...">Kontakt</a></li>
+            <li>
+              <a class="navigation-link" href="./index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="navigation-link active" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="navigation-link" href="...">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contacts-header">
+        <ul class="contacts">
           <li>
-            <a href="mailto:info@devstudio.com">
-              <svg class="icon envelope">
-                <use href="./images/icons.svg#iconenvelope"></use>
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon icon--mail">
+                <use href="images/icons.svg#iconenvelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+48111111111"
-              ><svg class="icon smartphone">
-                <use href="./images/icons.svg#iconsmartphone"></use>
+            <a href="tel:+48111111111" class="contacts__link">
+              <svg class="contacts__icon icon--phone">
+                <use href="images/icons.svg#iconsmartphone"></use>
               </svg>
               +48 111 111 111</a
             >
@@ -51,19 +55,19 @@
     <main>
       <section class="section">
         <div class="container">
-          <h5 class="h5head">Buttons</h5>
+          <h5 class="portfolio-header">Buttons</h5>
           <ul class="menu">
-            <li><button class="button" type="button">Wszystkie</button></li>
-            <li><button class="button" type="button">Strony</button></li>
-            <li><button class="button" type="button">Aplikacje</button></li>
-            <li><button class="button" type="button">Dizajn</button></li>
-            <li><button class="button" type="button">Marketing</button></li>
+            <li><button class="menu-button" type="button">Wszystkie</button></li>
+            <li><button class="menu-button" type="button">Strony</button></li>
+            <li><button class="menu-button" type="button">Aplikacje</button></li>
+            <li><button class="menu-button" type="button">Dizajn</button></li>
+            <li><button class="menu-button" type="button">Marketing</button></li>
           </ul>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <h5 class="h5head">Photos</h5>
+          <h5 class="portfolio-header">Photos</h5>
           <ul class="photos">
             <li class="photos-list">
               <figure>

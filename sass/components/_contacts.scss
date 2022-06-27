@@ -1,0 +1,38 @@
+.contacts {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacts__link {
+    color: #757575;
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .contacts:hover,
+  .contacts:focus,
+  .contacts:active {
+    color: #2196f3;
+    fill: currentColor;
+  }
+  
+  .contacts__icon {
+    margin-right: 10px;
+    fill: #757575;
+  }
+  
+  .icon--mail {
+    height: 12px;
+    width: 16px;
+  }
+  
+  .icon--phone {
+    width: 10px;
+    height: 16px;
+  }
+  

@@ -90,34 +90,6 @@ li {
 
 /* kontakty */
 
-.contacts_icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.icon--envelope {
-  width: 17px;
-  height: 12px;
-  margin-bottom: -1px;
-}
-
-.icon--smartphone {
-  width: 10px;
-  height: 16px;
-  margin-bottom: -3px;
-}
-
-.contacts-list {
-  color: #757575;
-  margin-left: 50px;
-}
-
-.contacts-list:hover,
-.contacts-list:focus {
-  color: #2196f3;
-}
-
-/*sprawdzam*/
 .contacts {
   margin-right: 40px;
   font-weight: 500;
@@ -134,17 +106,11 @@ li {
   text-decoration: none;
   cursor: pointer;
 }
-.contacts__link:hover,
-.contacts__link:focus,
-.contacts__link:active {
+.contacts:hover,
+.contacts:focus,
+.contacts:active {
   color: #2196f3;
-}
-
-.contacts a:hover,
-.contacts a:focus,
-.contacts a:active {
-  color: #2196f3;
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 .contacts__icon {

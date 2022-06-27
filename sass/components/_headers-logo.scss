@@ -1,0 +1,28 @@
+.header_logo,
+.footer_logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  font-family: Raleway;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.logo_header:hover,
+.logo_header:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo--blue {
+  color: #2196f3;
+}
+
+.logo--black {
+  color: #212121;
+}
+
+.logo--white {
+  color: #ffffff;
+}

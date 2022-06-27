@@ -1,0 +1,195 @@
+.modal-backdrop {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    transition: opacity var(--transition), visibility var(--transition);
+  }
+  
+  .modal-window {
+    background-color: #fff;
+    min-width: 528px;
+    cursor: auto;
+    margin: auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .modal-window-close-btn {
+    display: flex;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border: 1px solid #0000001a;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .modal-window-close-btn-icon {
+    display: flex;
+    margin: auto;
+    width: 11px;
+    height: 11px;
+  }
+  
+  .modal-form {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+  }
+  
+  .modal-header {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .modal-label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border, fill;
+  }
+  .modal-input {
+    display: block;
+    margin-top: 4px;
+    padding: 12px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border, fill;
+  }
+  
+  .modal-form .modal-label:focus-within {
+    fill: #2196f3;
+  }
+  
+  .modal-form .modal-input:focus-within {
+    border: 1px solid #2196f3;
+  }
+  
+  .modal-textarea {
+    margin-top: 4px;
+    padding: 12px 16px 12px 16px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border;
+  }
+  
+  .modal-textarea:focus {
+    border: 1px solid #2196f3;
+  }
+  
+  .terms-and-conditions a {
+    text-decoration-line: underline;
+    color: #2196f3;
+  }
+  
+  .terms-and-conditions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  
+  .checkbox {
+    margin-right: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  
+  .label-checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 0;
+    margin-right: 7px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 2px;
+  }
+  
+  .modal-checkbox {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .modal-checkbox:checked + .label-checkbox::before {
+    border: none;
+    background-image: url(../images/icon\ check.svg);
+  }
+  
+  .label-checkbox {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 124px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background-color: #2196f3;
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-form {
+    position: absolute;
+    top: 38px;
+    left: 12px;
+  }

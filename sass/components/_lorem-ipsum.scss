@@ -4,9 +4,9 @@
     align-items: center;
     text-align: left;
     list-style: none;
-  }
+}
   
-  .lorem-ipsum-list {
+  &-list {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -15,14 +15,13 @@
     border-radius: 4px;
     margin-bottom: 30px;
     background-color: #f5f4fa;
-  }
-  
-  .lorem-ipsum-list_icon {
+
+  &_icon {
     width: 70px;
     height: 70px;
   }
   
-  .lorem-ipsum-list_header {
+  &_header {
     list-style: none;
     margin-bottom: 10px;
     font-weight: 700;
@@ -32,7 +31,7 @@
     text-transform: uppercase;
   }
   
-  .lorem-ipsum-list_description {
+  &_description {
     max-width: 270px;
     font-weight: 400;
     font-size: 14px;
@@ -41,4 +40,4 @@
     list-style-type: none;
     color: #757575;
   }
-  
+}

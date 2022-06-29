@@ -106,11 +106,12 @@ li {
   text-decoration: none;
   cursor: pointer;
 }
-.contacts:hover,
-.contacts:focus,
-.contacts:active {
+
+.contacts__link:focus,
+.contacts__link:hover,
+.contacts__link:active {
   color: #2196f3;
-  fill: currentColor;
+  fill: #2196f3;
 }
 
 .contacts__icon {
@@ -828,7 +829,7 @@ a.navigation-link.active {
   cursor: pointer;
 }
 
-.footer-newsletter-signup-buttonicon {
+.footer-newsletter-signup-button_icon {
   fill: #fff;
   width: 24px;
   height: 24px;

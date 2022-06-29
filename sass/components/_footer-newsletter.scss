@@ -4,9 +4,8 @@
     justify-content: start;
     margin-left: 70px;
     margin-top: -25px;
-  }
   
-  .footer-newsletter-form {
+  &-form {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
@@ -15,11 +14,12 @@
     margin-top: 20px;
   }
   
-  .footer-newsletter-signup {
+  &-signup {
     display: flex;
   }
-  
-  .footer-newsletter-signup-input {
+}
+
+  .footer-signup-input {
     background-color: transparent;
     border: 1px solid #ffffff4d;
     border-radius: 4px;
@@ -28,20 +28,21 @@
     transition: color var(--transition), border-color var(--transition);
     width: 358px;
     height: 50px;
-  }
-  .footer-newsletter-signup-input:hover,
-  .footer-newsletter-signup-input:focus,
-  .footer-newsletter-signup-input:active {
+
+  &:hover,
+  &:focus,
+  &:active {
     outline: none;
     color: rgba(255, 255, 255, 1);
     border-color: #fff;
   }
   
-  .footer-newsletter-signup-input::placeholder {
+  &::placeholder {
     font-size: 16px;
   }
+}
   
-  .footer-newsletter-signup-button {
+  .footer-signup-button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +58,11 @@
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-  }
   
-  .footer-newsletter-signup-buttonicon {
+  &_icon {
     fill: #fff;
     width: 24px;
     height: 24px;
     margin-left: 24px;
   }
+}

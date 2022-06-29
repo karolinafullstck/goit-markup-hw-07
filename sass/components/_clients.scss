@@ -5,9 +5,8 @@
     justify-content: space-between;
     margin-left: -30px;
     margin-bottom: -30px;
-  }
   
-  .clients-list {
+  &-list {
     display: flex;
     justify-content: center;
     height: 92px;
@@ -20,17 +19,18 @@
     color: #afb1b8;
   }
   
-  .clients-list:hover,
-  .clients-list:hover svg {
+  &-list:hover,
+  &-list:hover svg {
     fill: #2196f3;
     border-color: #2196f3;
   }
   
-  .client-list_icon {
+  &-list_icon {
     display: flex;
     align-self: center;
     fill: #afb1b8;
   }
+}
   
   .company {
     width: 106px;

@@ -3,9 +3,9 @@
     text-decoration: none;
     list-style: none;
     align-items: space-between;
-  }
   
-  .navigation-link {
+  
+  &-link {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -14,10 +14,11 @@
     text-decoration: none;
   }
   
-  .navigation-link:hover,
-  .navigation-link:focus {
+  &-link:hover,
+  &-link:focus {
     color: #2196f3;
   }
+}
   
   a.navigation-link.active {
     position: relative;

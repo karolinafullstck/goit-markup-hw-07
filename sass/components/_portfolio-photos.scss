@@ -4,9 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-  }
   
-  .photos-list {
+  &-list {
     background-color: #fff;
     border: 1px solid #eee;
     margin-bottom: 30px;
@@ -17,14 +16,14 @@
     z-index: 1001;
   }
   
-  .photos-list:hover,
-  .photos-list:focus {
+  &-list:hover,
+  &-list:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
   }
   
-  .photos h2 {
+  & h2 {
     padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
@@ -38,7 +37,7 @@
     color: #212121;
   }
   
-  .photos span {
+  & span {
     padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
@@ -50,7 +49,7 @@
     letter-spacing: 0.03em;
   }
   
-  .photos-description {
+  &-description {
     position: relative;
     z-index: 1002;
     background-color: #fff;
@@ -62,23 +61,24 @@
     list-style: none;
   }
   
-  .photos-list:nth-child(3n + 1) {
+  &-list:nth-child(3n + 1) {
     margin-left: 0;
   }
-  .photos-list:nth-child(3n + 3) {
+  &-list:nth-child(3n + 3) {
     margin-right: 0;
   }
-  .photos-list:nth-child(n + 7) {
+  &-list:nth-child(n + 7) {
     margin-bottom: 0;
   }
-  .photos-list:nth-child(-n + 3) {
+  &-list:nth-child(-n + 3) {
     margin-top: 0;
   }
   
-  .photos-list:hover .overlay {
+  &-list:hover .overlay {
     transform: translateY(0);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
   
   .overlay {
     position: absolute;
@@ -91,9 +91,8 @@
     transform: translatey(100%);
     transition: var(--transition);
     transition-property: transform 250ms ease;
-  }
   
-  .overlay p {
+  & p {
     text-align: left;
     font-weight: 400;
     font-size: 18px;
@@ -105,4 +104,5 @@
     padding-left: 24px;
     padding-right: 45px;
   }
+}
   
